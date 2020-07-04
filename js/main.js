@@ -239,8 +239,8 @@
 	            // Message was sent
 	            if (msg == 'OK') {
 	            	sLoader.fadeOut(); 
-	             /*  $('#message-warning').html("Your details are submitted, we will contanct you soon!");
-	               $('#contactForm').fadeOut();*/
+	             $('#message-warning').hide();
+	               $('#contactForm').fadeOut();
 	               $('#message-success').fadeIn();   
 	            }
 	            // There was an error
